@@ -2,14 +2,10 @@
 
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
-**Note**: The application has been updated to a newer version. Get the source code of the newer version [here](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis) 
 
 ![GIF](./static/mrswsa.gif)
 
 
-Check out the youtube video if the above preview is not visible: https://www.youtube.com/watch?v=muPDsWgMkpc
-
-Check out the live demo: https://mrswsa.herokuapp.com/
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
@@ -19,7 +15,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ## How to run the project?
 
-1. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/requirements.txt) file.
+1. Install all the libraries mentioned in the requirements.txt file.
 2. Clone this repository in your local system.
 3. Replace YOUR_API_KEY in the `main.py` file.
 4. Open the command prompt from your project directory and run the command `python main.py`.
